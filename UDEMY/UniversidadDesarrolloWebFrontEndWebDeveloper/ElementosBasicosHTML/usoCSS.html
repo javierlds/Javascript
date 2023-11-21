@@ -7,9 +7,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Uso de CSS</title>
-    <style></style> <!--Etiqueta para aplicar estilos-->
+    <!-- Esta es una forma de usar estilos directamente en el html
+    <style>
+        h1{
+            color:blue;
+        }  
+        p{
+            color:white;
+            background-color: crimson; /*color de fondo*/
+        }
+        
+
+    </style> -->
+    <!--Etiqueta para aplicar estilos
+        En este caso a todos los elementos h1 y p
+    -->
+    <!--La siguiente forma es llamando el archivo de estilos-->
+    <link rel="stylesheet" href="css/estilos.css"/> <!--ctrl + space abre las rutas-->
 </head>
 <body>
+
+    <h1>Parrafo css en azul</h1>
+    <p>Parrafo de prueba </p>
+    <p>Parrafo dos</p>
+    <a href="contenidoConCss.html">Ir a contenido</a>
     
 </body>
 </html>
