@@ -1,0 +1,16 @@
+TIPOS DE DATOS
+
+Primitivos => INMUTABLES : Se pasan por valor
+string
+number
+boolean
+null
+undefined
+symbol
+bigint
+
+
+Complejos => MUTABLES: Se pasan por referencia
+object
+array
+function
